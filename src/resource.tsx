@@ -1,6 +1,3 @@
-import { Suspense } from "react";
-import { read } from "fs";
-
 const fetchPerson = () => {
   return fetch("https://randomuser.me/api")
     .then(x => x.json())
@@ -31,7 +28,9 @@ const wrapPromise = (promise: Promise<any>) => {
 
       return result;
     },
-    Suspense() {}
+    Suspense() {
+      console.log(`called the Suspsense method`);
+    }
   };
 };
 
