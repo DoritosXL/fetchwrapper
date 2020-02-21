@@ -30,6 +30,7 @@ const wrapPromise = (promise: Promise<any>) => {
     },
     Suspense() {
       console.log(`called the Suspsense method`);
+      console.log(`minor edit for branch testing`);
     }
   };
 };
