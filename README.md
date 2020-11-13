@@ -1,3 +1,5 @@
+A wrapper for basic data fetching. The data being fetched in this app is from the random user API.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
